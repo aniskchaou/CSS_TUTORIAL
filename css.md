@@ -1,4 +1,5 @@
 
+
 ## Le CSS, ou Cascading StyleSheets
 
 **CSS est le diminutif de Cascading StyleSheets**, ou feuilles de styles en cascade.
@@ -102,21 +103,21 @@ Remarque : On utilise un  # pour les  id  et un "." pour les  classes.
 
 Cette liste de propriétés permet de définir la couleur ou l'image qui sera utilisée en fond de page ou en arrière plan d'élément. Le site MammouthLand propose une page détaillée sur l'utilisation de ces propriétés.
 
-**background**	Ensemble de propriétés de l'arrière-plan.
+**background**	Ensemble de propriétés de l'arrière-plan.<br>
 *body {background: url(watermark.jpg) repeat fixed}*
 background:  #ffffff url("img_tree.png") no-repeat right top;
-**background-attachment**	Mode de défilement de l'image d'arrière-plan.
-**background-color**	Couleur de l'arrière-plan.
+**background-attachment**	Mode de défilement de l'image d'arrière-plan.<br>
+**background-color**	Couleur de l'arrière-plan.<br>
 *.highlighter {background-color: yellow}*
-**background-image**	Image d'arrière-plan.
-**background-position-x**	Position horizontale de l'image d'arrière-plan.
-**background-position-y**	Position verticale de l'image d'arrière-plan.
-**background-position**	Position de l'image d'arrière-plan.
+**background-image**	Image d'arrière-plan.<br>
+**background-position-x**	Position horizontale de l'image d'arrière-plan.<br>
+**background-position-y**	Position verticale de l'image d'arrière-plan.<br>
+**background-position**	Position de l'image d'arrière-plan.<br>
 background-position:  right top;
-**background-repeat**	Mode de répétition de l'image d'arrière-plan.
+**background-repeat**	Mode de répétition de l'image d'arrière-plan.<br>
 body{ background-repeat:  repeat-x; }
-**layer-background-image**	Image d'arrière plan et de la bordure dans Netscape Navigator.
-**layer-background-color**	Couleur d'arrière plan et de la bordure dans Netscape Navigator.
+**layer-background-image**	Image d'arrière plan et de la bordure dans Netscape Navigator.<br>
+**layer-background-color**	Couleur d'arrière plan et de la bordure dans Netscape Navigator.<br>
 
 ## Border (bordure)
 
@@ -124,36 +125,36 @@ Cette liste de propriétés permet de définir les caractéristiques des bordure
 
 Voir également la famille "outline" qui permet de jouer sur l'encadrement du contenu d'un élément.
 
-**border**	Caractéristiques des bordures.
+**border**	Caractéristiques des bordures.<br>
 p {border: 10px groove darkred}
-**border-bottom**	Caractéristiques de la bordure du bas.
-**border-bottom-color**	Couleur de la bordure du bas.
-**border-bottom-style**	Style de la bordure du bas.
-**border-bottom-width**	Epaisseur de la bordure du bas.
-**border-collapse**	Mode d'encadrement des cellules adjacentes.
-**border-color**	Couleur des bordures.
-**border-left**	Caractéristiques de la bordure de gauche.
+**border-bottom**	Caractéristiques de la bordure du bas.<br>
+**border-bottom-color**	Couleur de la bordure du bas.<br>
+**border-bottom-style**	Style de la bordure du bas.<br>
+**border-bottom-width**	Epaisseur de la bordure du bas.<br>
+**border-collapse**	Mode d'encadrement des cellules adjacentes.<br>
+**border-color**	Couleur des bordures.<br>
+**border-left**	Caractéristiques de la bordure de gauche.<br>
 border-left:  6px solid red;
-**border-left-color**	Couleur de la bordure de gauche.
-**border-left-style**	Style de la bordure de gauche.
-**border-left-width**	Epaisseur de la bordure de gauche.
-**border-right**	Caractéristiques de la bordure de droite.
-**border-right-color**	Couleur de la bordure de droite.
-**border-right-style**	Style de la bordure de droite.
-**border-right-width**	Epaisseur de la bordure de droite.
-**border-spacing**	Espacement entre deux traits de cellules adjacentes.
-**border-style**	Style des bordures.
+**border-left-color**	Couleur de la bordure de gauche.<br>
+**border-left-style**	Style de la bordure de gauche.<br>
+**border-left-width**	Epaisseur de la bordure de gauche.<br>
+**border-right**	Caractéristiques de la bordure de droite.<br>
+**border-right-color**	Couleur de la bordure de droite.<br>
+**border-right-style**	Style de la bordure de droite.<br>
+**border-right-width**	Epaisseur de la bordure de droite.<br>
+**border-spacing**	Espacement entre deux traits de cellules adjacentes.<br>
+**border-style**	Style des bordures.<br>
 border-style:  solid
-**border-top**	Caractéristiques de la bordure du haut.
-**border-top-color**	Couleur de la bordure du haut.
-**border-top-style**	Style de la bordure du haut.
-**border-top-width**	Epaisseur de la bordure du haut.
-**border-width**	Epaisseur des bordures.
-**-moz-border-radius**	Permet de définir un coin arrondi des bordures (pour Mozilla seulement)
-**-moz-border-radius-bottomleft**	Permet de définir un coin arrondi pour une bordure (pour Mozilla seulement)
-**-moz-border-radius-bottomright**	Permet de définir un coin arrondi pour une bordure (pour Mozilla seulement)
-**-moz-border-radius-topleft**	Permet de définir un coin arrondi pour une bordure (pour Mozilla seulement)
-**-moz-border-radius-topright** Permet de définir un coin arrondi pour une bordure (pour Mozilla seulement)
+**border-top**	Caractéristiques de la bordure du haut.<br>
+**border-top-color**	Couleur de la bordure du haut.<br>
+**border-top-style**	Style de la bordure du haut.<br>
+**border-top-width**	Epaisseur de la bordure du haut.<br>
+**border-width**	Epaisseur des bordures.<br>
+**-moz-border-radius**	Permet de définir un coin arrondi des bordures (pour Mozilla seulement)<br>
+**-moz-border-radius-bottomleft**	Permet de définir un coin arrondi pour une bordure (pour Mozilla seulement)<br>
+**-moz-border-radius-bottomright**	Permet de définir un coin arrondi pour une bordure (pour Mozilla seulement)<br>
+**-moz-border-radius-topleft**	Permet de définir un coin arrondi pour une bordure (pour Mozilla seulement)<br>
+**-moz-border-radius-topright** Permet de définir un coin arrondi pour une bordure (pour Mozilla seulement)<br>
 
 ## Couleur
 
@@ -161,76 +162,76 @@ Cette famille regroupe toutes les propriétés consacrées à la couleur.
 
 Les normes HTML et CSS permettent de définir les couleurs de 3 façons différentes. Pour en savoir plus, consultez notre page consacrée à la couleur.
 
-**background-color**	Couleur de l'arrière-plan.
-**border-bottom-color**	Couleur de la bordure du bas.
-**border-color**	Couleur des bordures.
-**border-left-color**	Couleur de la bordure de gauche.
-**border-right-color**	Couleur de la bordure de droite.
-**border-top-color**	Couleur de la bordure de droite.
-**color**	Couleur de l'avant plan (texte, par exemple).
-**layer-background-color**	Couleur d'arrière plan et de la bordure dans Netscape.
-**outline-color**	Couleur de l'encadrement de l'élément.
-**scrollbar-3dlight-color**	Aspect de l'ascenseur (Explorer seulement).
-**scrollbar-arrow-color**	Aspect de l'ascenseur (Explorer seulement).
-**scrollbar-base-color**	Aspect de l'ascenseur (Explorer seulement).
-**scrollbar-darkShadow-color**	Aspect de l'ascenseur (Explorer seulement).
-**scrollbar-face-color**	Aspect de l'ascenseur (Explorer seulement).
-**scrollbar-highlight-color**	Aspect de l'ascenseur (Explorer seulement).
-**scrollbar-shadow-color**	Aspect de l'ascenseur (Explorer seulement).
-**scrollbar-track-color**	Aspect de l'ascenseur (Explorer seulement).
+**background-color**	Couleur de l'arrière-plan.<br>
+**border-bottom-color**	Couleur de la bordure du bas.<br>
+**border-color**	Couleur des bordures.<br>
+**border-left-color**	Couleur de la bordure de gauche.<br>
+**border-right-color**	Couleur de la bordure de droite.<br>
+**border-top-color**	Couleur de la bordure de droite.<br>
+**color**	Couleur de l'avant plan (texte, par exemple).<br>
+**layer-background-color**	Couleur d'arrière plan et de la bordure dans Netscape.<br>
+**outline-color**	Couleur de l'encadrement de l'élément.<br>
+**scrollbar-3dlight-color**	Aspect de l'ascenseur (Explorer seulement).<br>
+**scrollbar-arrow-color**	Aspect de l'ascenseur (Explorer seulement).<br>
+**scrollbar-base-color**	Aspect de l'ascenseur (Explorer seulement).<br>
+**scrollbar-darkShadow-color**	Aspect de l'ascenseur (Explorer seulement).<br>
+**scrollbar-face-color**	Aspect de l'ascenseur (Explorer seulement).<br>
+**scrollbar-highlight-color**	Aspect de l'ascenseur (Explorer seulement).<br>
+**scrollbar-shadow-color**	Aspect de l'ascenseur (Explorer seulement).<br>
+**scrollbar-track-color**	Aspect de l'ascenseur (Explorer seulement).<br>
 
 ## Divers
 
-**cursor**	Forme du curseur pour la souris.
-**filter (new style)**	Filtre graphique.
-**filter (old style)**	Filtre graphique.
-**!important**	Donne la priorité à une définition CSS.
+**cursor**	Forme du curseur pour la souris.<br>
+**filter (new style)**	Filtre graphique.<br>
+**filter (old style)**	Filtre graphique.<br>
+**!important**	Donne la priorité à une définition CSS.<br>
 **-moz-opacity**	Transparence/opacité de l'élément (pour Mozilla seulement)
-**opacity**	Transparence/opacité de l'élément.
-**scrollbar-3dlight-color**	Aspect de l'ascenseur (Explorer seulement).
-**scrollbar-arrow-color**	Aspect de l'ascenseur (Explorer seulement).
-**scrollbar-base-color**	Aspect de l'ascenseur (Explorer seulement).
-**scrollbar-darkShadow-color**	Aspect de l'ascenseur (Explorer seulement).
-**scrollbar-face-color**	Aspect de l'ascenseur (Explorer seulement).
-**scrollbar-highlight-color**	Aspect de l'ascenseur (Explorer seulement).
-**scrollbar-shadow-color**	Aspect de l'ascenseur (Explorer seulement).
-**scrollbar-track-color**	Aspect de l'ascenseur (Explorer seulement).
-**visibility**	Détermine si l'élément est affiché sur la page.
-**white-space**	Gestion des espaces multiples et des retours chariot.
+**opacity**	Transparence/opacité de l'élément.<br>
+**scrollbar-3dlight-color**	Aspect de l'ascenseur (Explorer seulement).<br>
+**scrollbar-arrow-color**	Aspect de l'ascenseur (Explorer seulement).<br>
+**scrollbar-base-color**	Aspect de l'ascenseur (Explorer seulement).<br>
+**scrollbar-darkShadow-color**	Aspect de l'ascenseur (Explorer seulement).<br>
+**scrollbar-face-color**	Aspect de l'ascenseur (Explorer seulement).<br>
+**scrollbar-highlight-color**	Aspect de l'ascenseur (Explorer seulement).<br>
+**scrollbar-shadow-color**	Aspect de l'ascenseur (Explorer seulement).<br>
+**scrollbar-track-color**	Aspect de l'ascenseur (Explorer seulement).<br>
+**visibility**	Détermine si l'élément est affiché sur la page.<br>
+**white-space**	Gestion des espaces multiples et des retours chariot.<br>
 
 ## Liste
 
 Ces propriétés premettent de définir la façon d'afficher les éléments de type < LI>, < UL> et < OL> ainsi que les éléments < DT> et < DD> (listes de définitions)
 
-**list-style-image**	Image remplaçant les puces dans les listes.
-**list-style-position**	Détermine si la puce doit être affichée à l'intérieur ou à l'extérieur (en retrait négatif) du bloc de contenu de liste.
-**list-style-type**	Définit le type de puce à afficher pour une liste.
-**list-style**	Ensemble de caractéristiques pour une liste.
-**marker-offset**	Position de la puce ou du numéro dans une liste.
+**list-style-image**	Image remplaçant les puces dans les listes.<br>
+**list-style-position**	Détermine si la puce doit être affichée à l'intérieur ou à l'extérieur (en retrait négatif) du bloc de contenu de liste.<br>
+**list-style-type**	Définit le type de puce à afficher pour une liste.<br>
+**list-style**	Ensemble de caractéristiques pour une liste.<br>
+**marker-offset**	Position de la puce ou du numéro dans une liste.<br>
 
 ## Outline (encadrement)
 
 Alors que les propriétés "border" permettent d'attribuer une bordure aux éléments, les propriétés "outline" attribuent un cadre au contenu des éléments.
 
-**outline-color**	Couleur de l'encadrement de l'élément.
-**outline-style**	Couleur d'encadrement de l'élément.
-**outline-width**	Epaisseur de l'encadrement de l'élément.
-**outline**	Encadrement de l'élément.
+**outline-color**	Couleur de l'encadrement de l'élément.<br>
+**outline-style**	Couleur d'encadrement de l'élément.<br>
+**outline-width**	Epaisseur de l'encadrement de l'élément.<br>
+**outline**	Encadrement de l'élément.<br>
 
 ## Position et dimensions
 
 Ces propriétés permettent de gérer la mise en page de votre site.
 
-**bottom**	Position basse d'un élément.
-**clear**	Gestion de l'habillage (en relation avec la propriété "float")
-**clip**	Définit la partie visible de l'élément.
-**display**	Façon d'afficher un élément.
+**bottom**	Position basse d'un élément.<br>
+**clear**	Gestion de l'habillage (en relation avec la propriété "float")<br>
+**clip**	Définit la partie visible de l'élément.<br>
+**display**	Façon d'afficher un élément.<br>
 display:  inline;
-**float**	Positionnement flottant (relatif) d'un élément par rapport à un autre.
+**float**	Positionnement flottant (relatif) d'un élément par rapport à un autre.<br>
 float:  right;
-**height**	Définit la hauteur d'un élément
-**left**	Position gauche d'un élément
-**margin**	Marges extérieures de l'élément.
+**height**	Définit la hauteur d'un élément<br>
+**left**	Position gauche d'un élément<br>
+**margin**	Marges extérieures de l'élément.<br>
 **margin: 25px 50px 75px 100px;**
 
 -   top margin is 25px
@@ -238,16 +239,16 @@ float:  right;
 -   bottom margin is 75px
 -   left margin is 100px
 
-**margin-top**	Marge extérieure du haut de l'élément.
-**margin-right**	Marge extérieure de droite de l'élément.
-**margin-left**	Marge extérieure de gauche de l'élément.
-**max-height**	Hauteur maxi de l'élément.
-**min-height**	Hauteur mini de l'élément.
-**max-width**	Largeur maxi de l'élément.
-**min-width**	Largeur mini de l'élément.
-**overflow-x**	Présence/absence de l'ascenseur droit (Explorer seulement)
-**overflow-y**	Présence/absence de l'ascenseur bas (Explorer seulement)
-**overflow**	Présence/absence des ascenseurs.
+**margin-top**	Marge extérieure du haut de l'élément.<br>
+**margin-right**	Marge extérieure de droite de l'élément.<br>
+**margin-left**	Marge extérieure de gauche de l'élément.<br>
+**max-height**	Hauteur maxi de l'élément.<br>
+**min-height**	Hauteur mini de l'élément.<br>
+**max-width**	Largeur maxi de l'élément.<br>
+**min-width**	Largeur mini de l'élément.<br>
+**overflow-x**	Présence/absence de l'ascenseur droit (Explorer seulement)<br>
+**overflow-y**	Présence/absence de l'ascenseur bas (Explorer seulement)<br>
+**overflow**	Présence/absence des ascenseurs.<br>
 overflow:  visible; hidden auto
 **padding**	Marges intérieures de l'élément
 
@@ -258,32 +259,32 @@ padding: 25px 50px 75px 100px;**
 -   bottom padding is 75px
 -   left padding is 100px
 
-**padding-top**	Marge intérieure haute de l'élément
-**padding-left**	Marge intérieure gauche de l'élément
-**padding-right**	Marge intérieure droite de l'élément
-**padding-bottom**	Marge intérieure basse de l'élément
-**position**	Positionnement de l'élément.
+**padding-top**	Marge intérieure haute de l'élément<br>
+**padding-left**	Marge intérieure gauche de l'élément<br>
+**padding-right**	Marge intérieure droite de l'élément<br>
+**padding-bottom**	Marge intérieure basse de l'élément<br>
+**position**	Positionnement de l'élément.<br>
 position : relative ;
 position:  absolute;  
 top:  80px;  
 right:  0;
-**right**	Position droite de l'élément.
-**text-align**	Détermine l'alignement horizontal du texte à l'intérieur d'un élément.
-**top**	Position supérieure de l'élément.
-**vertical-align**	Alignement vertical de l'élément.
-**width**	Définit la largeur de l'élément
-**z-index**	Définit l'ordre de superposition des éléments (dessus/dessous).
+**right**	Position droite de l'élément.<br>
+**text-align**	Détermine l'alignement horizontal du texte à l'intérieur d'un élément.<br>
+**top**	Position supérieure de l'élément.<br>
+**vertical-align**	Alignement vertical de l'élément.<br>
+**width**	Définit la largeur de l'élément<br>
+**z-index**	Définit l'ordre de superposition des éléments (dessus/dessous).<br>
 
 ## Table (tableaux)
 
 Ces propriétés ne s'appliquent qu'aux éléments de type < Table> et à leurs sous-éléments (caption, td, etc.)
 
 border-collapse	Mode d'encadrement des cellules adjacentes.
-**border-spacing**	Espacement entre deux traits de cellules adjacentes.
-**caption-side**	Emplacement du titre des tableaux.
-**empty-cells**	Mode d'affichage des cellules vides.
-**speak-header**	Mode de restitution des titres de tableaux.
-**table-layout**	Mode de calcul des largeurs de colonnes et de tableaux.
+**border-spacing**	Espacement entre deux traits de cellules adjacentes.<br>
+**caption-side**	Emplacement du titre des tableaux.<br>
+**empty-cells**	Mode d'affichage des cellules vides.<br>
+**speak-header**	Mode de restitution des titres de tableaux.<br>
+**table-layout**	Mode de calcul des largeurs de colonnes et de tableaux.<br>
 
 
 ## Texte et caractères
@@ -291,42 +292,42 @@ border-collapse	Mode d'encadrement des cellules adjacentes.
 Cette famille regroupe toutes les propriétés permettant d'agir sur le texte.
 
 **color**	Couleur de l'avant plan (texte, par exemple).
-direction	Sens d'écriture.
-**font**	Ensemble des propriétés concernant les caractères.
-**font-family**	Police de caractères.
-**font-size**	Taille des caractères.
-**font-size-adjust**	Hauteur des lignes de texte.
-**font-stretch**	Etirement ou compression des caractères.
-**font-style**	Mise en italique.
-**font-variant**	Mise en petites capitales.
-**font-weight**	Mise en gras ou extra-gras (extra-bold).
-**letter-spacing** 	Espacement des lettres.
+direction	Sens d'écriture.<br>
+**font**	Ensemble des propriétés concernant les caractères.<br>
+**font-family**	Police de caractères.<br>
+**font-size**	Taille des caractères.<br>
+**font-size-adjust**	Hauteur des lignes de texte.<br>
+**font-stretch**	Etirement ou compression des caractères.<br>
+**font-style**	Mise en italique.<br>
+**font-variant**	Mise en petites capitales.<br>
+**font-weight**	Mise en gras ou extra-gras (extra-bold).<br>
+**letter-spacing** 	Espacement des lettres.<br>
 letter-spacing:  3px;
-**line-break**	Contrôle les règles qui régissent le saut de ligne pour un texte en japonais.
-**line-height**	Hauteur de ligne
-**text-align**	Détermine l'alignement horizontal du texte à l'intérieur d'un élément.
+**line-break**	Contrôle les règles qui régissent le saut de ligne pour un texte en japonais.<br>
+**line-height**	Hauteur de ligne<br>
+**text-align**	Détermine l'alignement horizontal du texte à l'intérieur d'un élément.<br>
 text-align:  center;
-**text-align-last**	Détermine l'alignement horizontal de la dernière ligne de texte dans un cadre de l'élément (Explorer seulement).
-**text-autospace**	Détermine l'espacement entre les caractères (langues asiatiques - Explorer seulement).
-**text-decoration**	Soulignement ou rayure du texte.
+**text-align-last**	Détermine l'alignement horizontal de la dernière ligne de texte dans un cadre de l'élément (Explorer seulement).<br>
+**text-autospace**	Détermine l'espacement entre les caractères (langues asiatiques - Explorer seulement).<br>
+**text-decoration**	Soulignement ou rayure du texte.<br>
 text-decoration:  none;
-**text-indent**	Indentation du texte.
+**text-indent**	Indentation du texte.<br>
 text-indent:  50px;
-**text-justify**	Justification du texte.
-**text-kashida-space**	Concerne le texte arabe inclus dans un élément de bloc (Explorer seulement).
-**text-overflow**	Détermine s'il faut afficher le contenu débordant d'un cadre plein sous forme de points de suspension (...) à la fin de la ligne
-**text-shadow**	Définit les effets d'ombre à appliquer au texte de l'élément.
+**text-justify**	Justification du texte.<br>
+**text-kashida-space**	Concerne le texte arabe inclus dans un élément de bloc (Explorer seulement).<br>
+**text-overflow**	Détermine s'il faut afficher le contenu débordant d'un cadre plein sous forme de points de suspension (...) à la fin de la ligne<br>
+**text-shadow**	Définit les effets d'ombre à appliquer au texte de l'élément.<br>
 text-shadow:  3px 2px red;
-**text-transform**	Contrôle la capitalisation (majuscules/minuscules) du texte d'un élément.
+**text-transform**	Contrôle la capitalisation (majuscules/minuscules) du texte d'un élément.<br>
 text-transform:  uppercase;
-**text-underline-position**	Position du texte par rapport au soulgnement (langues asiatiques - Explorer seulement).
-**unicode-bidi**	Détermine l'incorporation du texte bidirectionnel avec la propriété de style direction (langues asiatiques - Explorer seulement).
-**vertical-align**	Alignement vertical de l'élément.
-**unicode-bidi**	Détermine l'incorporation du texte bidirectionnel avec la propriété de style direction (langues asiatiques - Explorer seulement).
-**white-space**	Gestion des espaces multiples et des retours chariot.
-**word-break**	Détermine le style de césure de mot (langues asiatiques - Explorer seulement).
-**word-wrap**	Détermine le style de renvoi à la ligne pour les éléments de niveau bloc, les éléments incorporés de taille spécifique ou les éléments positionnés (Explorer seulement).
-**writing-mode**	Progression du contenu texte dans l'élément (langues asiatiques - Explorer seulement).
+**text-underline-position**	Position du texte par rapport au soulgnement (langues asiatiques - Explorer seulement).<br>
+**unicode-bidi**	Détermine l'incorporation du texte bidirectionnel avec la propriété de style direction (langues asiatiques - Explorer seulement).<br>
+**vertical-align**	Alignement vertical de l'élément.<br>
+**unicode-bidi**	Détermine l'incorporation du texte bidirectionnel avec la propriété de style direction (langues asiatiques - Explorer seulement).<br>
+**white-space**	Gestion des espaces multiples et des retours chariot.<br>
+**word-break**	Détermine le style de césure de mot (langues asiatiques - Explorer seulement).<br>
+**word-wrap**	Détermine le style de renvoi à la ligne pour les éléments de niveau bloc, les éléments incorporés de taille spécifique ou les éléments positionnés (Explorer seulement).<br>
+**writing-mode**	Progression du contenu texte dans l'élément (langues asiatiques - Explorer seulement).<br>
 
 ## Anchor Pseudo-classes
 /* unvisited link */  
@@ -360,12 +361,12 @@ Toutes les unités absolues sont équivalentes selon le rapport suivant : 1 in =
 
 **Unités relatives**
 **em**	Unité relative à la taille de police de l'élément.
-1 em équivaut à 100% de cette taille.
+1 em équivaut à 100% de cette taille.<br>
 
-**ex**	Unité relative à la hauteur de la minuscule de l'élément. Seule exception à cette règle : lorsque la propriété font-size est définie, elle se rapporte à la hauteur de la minuscule de l'élément parent.
+**ex**	Unité relative à la hauteur de la minuscule de l'élément. Seule exception à cette règle : lorsque la propriété font-size est définie, elle se rapporte à la hauteur de la minuscule de l'élément parent.<br>
 
-**px**	Le pixel. Il s'agit d'une unité dont le rendu dépend de la résolution du périphérique d'affichage
-%	Le pourcentage est une unité relative à la taille de l'élément ou de son parent.
+**px**	Le pixel. Il s'agit d'une unité dont le rendu dépend de la résolution du périphérique d'affichage<br>
+%	Le pourcentage est une unité relative à la taille de l'élément ou de son parent.<br>
 
 ## 3 modes d'affichage pour les éléments HTML
 
